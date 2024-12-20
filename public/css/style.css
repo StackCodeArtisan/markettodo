@@ -1,0 +1,187 @@
+body{
+    
+}
+h3{
+    font-family: "Quicksand", sans-serif;
+}
+.heading-title{
+    text-decoration:underline;
+    text-decoration-color:#796F66;
+    text-decoration-thickness: 2px; 
+    text-decoration-style: double;
+    font-family: "Quicksand", sans-serif;
+    /* letter-spacing: 2px; */
+}
+.banner{
+    min-height:300px;
+    background-size: cover;
+    background-image:linear-gradient(to bottom, rgba(210, 22, 22, 0.47),#025d346d),url('../images/foodie.jpg'); 	
+}
+.heading{
+    height:inherit;
+    
+}
+.menu{
+    background-color: #025d34;
+}
+.menu a, .menu a ul li a{
+    color:white;
+}
+
+.menu a:hover, .menu a ul li a:hover{
+    color:white; 
+   
+}
+.navbar-nav li:hover{
+    
+    border-bottom: 1px solid #47fe937d;
+}
+.active,.show{
+    color: white !important;
+}
+.nav-item ul li a{ 
+    color:#025d34;
+}
+.nav-item ul li{ 
+    background-color:white;
+}
+.container{
+    background-color: #F2F2F2;
+}
+#top{
+    position:sticky !important;
+    top:0px;
+}
+
+h1,h2,h3,h4,h5{
+   letter-spacing: 3px;
+}
+.places img:hover{
+    box-shadow: 3px 3px 3px grey;
+}
+.places img{
+    border:4px ridge #2f0101;
+    /* padding:10px; */
+}
+.places >div>div>div>div{
+    padding:10px;
+}
+.places h6{
+    color:#2f0101;
+    font-weight: bold;
+}
+.user-menu{
+    background-color: #025d34;
+}
+.user-profile li a:hover{
+    background-color: white !important;
+    color:  #13357B;
+}
+.dropdown-menu li:hover,.dropdown-menu li a:hover{ 
+    background-color:#13357B;
+}
+.noround{
+    border-radius: 0px;
+}
+
+.tab-bg{
+	background-color: #f5e9ea;
+}
+ 
+.tab-btn .active{
+	border-radius: 0px;
+	background-color:#025d34 ;/* beautiful red #d21616;*/
+}
+ 
+.nav-pills .nav-link{
+	color: black;
+	font-weight: 500;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #025d34;
+}
+.call-to-action{
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+.call-to-action-bg{
+    min-height:200px;
+    background-attachment: fixed;
+    background-image: url('../images/travel-3.jpg');
+}
+.custom-btn{
+    color:white;
+    background-color: #d21616;
+}
+.custom-btn:hover{
+    color:white;
+    background-color: rgb(95, 47, 12);
+}
+.blue-btn{
+    color:white;
+    background-color: #13357B;
+}
+.blue-btn:hover{
+    color:white;
+    background-color: #031a48;
+}
+.pix{
+    box-shadow: 3px 3px 3px grey;
+}
+.footer{
+    padding:20px;
+    
+    background-color:rgb(0, 0, 0);
+    color:white;
+    /* background-size: cover; */
+    /* background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.9)), url('../images/travel-1.jpg'); 
+    background-attachment: fixed; */
+}
+ .footer a{
+    color:white !important;
+    text-decoration: none;
+ }
+ .footer a:hover{
+    color:white !important;
+    text-decoration: underline;
+ }
+.section-title{
+    margin:10px 0px;
+     
+}
+.descriptions{
+    padding:10px;
+    /* position:absolute; */
+    /* bottom:0px;
+    height:auto; */
+    width:100%;    
+    color:white;
+    background-color: #FFA500a1;
+}
+.descriptions img:hover{
+    border: #031a48 2px solid;
+}
+ 
+.descriptions:hover{ 
+    padding:10px; 
+    width:100%; 
+    background-color: rgba(33, 15, 1, 0.6) !important;
+}
+.box:hover{
+    box-shadow: 2px 2px 8px #ccc;
+}
+.box p{
+    font-size: 12px;
+    text-align: center;
+}
+.box img{
+    border-radius: 50%;
+    padding:10px;
+}
+ 
+      
+  
