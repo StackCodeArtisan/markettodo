@@ -15,7 +15,7 @@ h3{
 .banner{
     min-height:300px;
     background-size: cover;
-    background-image:linear-gradient(to bottom, rgba(210, 22, 22, 0.47),#025d346d),url('../images/foodie.jpg');
+    background-image:linear-gradient(to bottom, rgba(210, 22, 22, 0.47),#025d346d),url('assets/images/foodie.jpg');
 }
 .heading{
     height:inherit;
@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5{
 .call-to-action-bg{
     min-height:200px;
     background-attachment: fixed;
-    background-image: url('../images/travel-3.jpg');
+    background-image: url('assets/images/travel-3.jpg');
 }
 .custom-btn{
     color:white;
